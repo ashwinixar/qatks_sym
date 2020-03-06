@@ -9,5 +9,5 @@ The C code implements Quantum algorithm of symmetric cryptanalysis quantum attac
 "A1.c" contains the C code of Quantum Differential Distinguisher. "A1.exe" is the respective executable.<br/>
 "A2.c" contains the C code of Fully-quantum Quantum Differential Last-Rounds attack. "A2.exe" is the respective executable.<br/>
 "A3.c" contains the C code of Quantum Differential Subkey-Recovery attack. "A3.exe" is the respective executable.<br/>
-"Atk_BV.c" contains the C code of BV-algorithm to find the best secret vector corresponding to E_j.<br/>
+"Atk_BV.c" contains the C code of BV-algorithm to find the best secret vector corresponding to E_j. "Atk_BV.exe" is the respective executable.<br/>
 "QLC.c" constains the C code of Quantum Linear Cryptanalysis attack. "QLC.exe" is the respective executable.<br/>
