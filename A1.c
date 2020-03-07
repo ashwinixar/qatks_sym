@@ -61,7 +61,7 @@ int main (int narg, char *varg[])
     
     //According to Grover's search complexity
     //Ideal number of iterations for repeating grover's operator to get the correct result
-    //times = (pi/4) * sqrt(2^n/m), here n = 8-qubits, m = 6 (correct results i.e. 4 entries in oracle_e has "Delta_out = 0xE")
+    //times = (pi/4) * sqrt(2^n/m), here n = 8-qubits, m = 6 (correct results i.e. 6 entries in oracle_e has "Delta_fin = { 0xE, 0xB }")
     //So, times = (pi/4) * sqrt(2^n/m) = (3.14/4) * sqrt(256/6) = 5.127 or 5
     //One can choose either 6 iterations (according to attack) or 5 iterations according to Grover's time complexity
     int times = 5;
